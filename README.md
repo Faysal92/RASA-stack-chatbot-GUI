@@ -1,4 +1,4 @@
-# Chatbot-with-Rasa (core + nlu)
+# Chatbot-with-Rasa-stack (core + nlu)
 HR Chatbot with Rasa (core + nlu)
 
 You should have Python3.6 and pip manager installed on your machine.
