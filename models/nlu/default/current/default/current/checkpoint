@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:/Users/benah/anaconda3/envs/myenv/HR-Recruiter-Chatbot-with-Rasa-master/models/nlu/default/current\\default\\current\\component_5_EmbeddingIntentClassifier.ckpt"
+all_model_checkpoint_paths: "C:/Users/benah/anaconda3/envs/myenv/HR-Recruiter-Chatbot-with-Rasa-master/models/nlu/default/current\\default\\current\\component_5_EmbeddingIntentClassifier.ckpt"

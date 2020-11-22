@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\benah\\anaconda3\\envs\\myenv\\RH-Rasa-Chatbot\\models/nlu\\default\\current\\component_5_EmbeddingIntentClassifier.ckpt"
+all_model_checkpoint_paths: "C:\\Users\\benah\\anaconda3\\envs\\myenv\\RH-Rasa-Chatbot\\models/nlu\\default\\current\\component_5_EmbeddingIntentClassifier.ckpt"
