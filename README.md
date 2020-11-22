@@ -3,6 +3,29 @@ HR Chatbot with Rasa
 
 You should have Python3.6 and pip manager installed on your machine.
 
+Outline : 
+
+First of all, we need to create anaconda environment (to not have a conflict between packages for smooth installation) using the python version 3.6 as an interpreter through the following command : 
+
+conda create -n yourenvname python=3.6 anaconda  
+
+then activate it, using : activate yourenvname 
+
+ 
+Instaltion : The following modules are required : 
+                 rasa_core==0.14.0 
+                 rasa_sdk 
+                 rasa_core_sdk 
+                 rasa_nlu[spacy] 
+                 nltk 
+                 numpy 
+                 pandas 
+                 scikit-learn 
+                 flask 
+                 Gunicorn 
+
+These modules are in requirements.txt file, we can install them in one command using : pip install –r requirements 
+
 Here is how to install the dependencies
 
 pip install -r requirements.txt
