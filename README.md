@@ -1,5 +1,5 @@
-# HR-Recruiter-Chatbot-with-Rasa
-HR Recruiter Chatbot with Rasa
+# HR-Chatbot-with-Rasa
+HR Chatbot with Rasa
 
 You should have Python3.6 and pip manager installed on your machine.
 
@@ -9,9 +9,9 @@ pip install -r requirements.txt
 
 
 
-And then train the Dialogue model by,
+Let's create the Dialogue model ,
 
-1- And then train the NLU model by running, train nlu by running : python nlu_training.py
+1- Train the NLU model by running : python nlu_training.py
    this will create a NLU model under models directory.
 
 2- train rasa core by typing :
@@ -19,14 +19,14 @@ And then train the Dialogue model by,
 
 
 3- Run Bot server using : 
-   python -m rasa_core.run --enable_api -d models/dialogue -u models/nlu/default/current --cors "*" -o out.log --endpoints endpoints.yml --port 5800 --credentials credentials.yml
+   python -m rasa_core.run --enable_api -d models/dialogue -u models/nlu/default/current --cors "*" -o out.log --endpoints endpoints.yml --port 5800 --credentials   credentials.yml
 
 
-4- Run web app by (or just open index.html)
-   running web_app.py
+4- Run web app by (or just use index.html)
+   running app.py
 
 
-5- python -m rasa_core_sdk.endpoint --actions action
+5- Custom Actions will be called by rasa open source assistant using : python -m rasa_core_sdk.endpoint --actions actions
 
 
 
